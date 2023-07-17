@@ -26,15 +26,6 @@ add_action(
                 )
             );
         }
-
-        // if ( function_exists( 'woocommerce_store_api_register_update_callback' ) ) {
-        //     woocommerce_store_api_register_update_callback(
-        //         array(
-        //             'namespace' => 'order-delivery-date',
-        //             'callback'  => 'orddd_update_cart_fees',
-        //         )
-        //     );
-        // }
     }
 );
 
